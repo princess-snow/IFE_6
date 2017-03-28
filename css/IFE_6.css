@@ -1,0 +1,211 @@
+html,body,.container,.header,.article,.footer{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 0 60px 0 60px;
+    font-family: "微软雅黑";
+}
+/*头部*/
+.header{
+    width: 100%;
+    height:60px;
+    border-bottom: 2px solid #7a716c;
+}
+.h_left,.h_right{
+    width: 120px;
+    height: 60px;
+    line-height: 100px;
+    display: inline-block;
+}
+.h_left{
+    float: left;
+    background: #ca3e36;
+    color: #fff;
+    text-align: center;
+}
+.h_right,.f_div{
+    float: right;
+    color: #ca3e36;
+    text-align: right;
+}
+.mainTopLeft,.mainTopRight,.mainBottomLeft,.mainBottomRight{
+    margin: 30px 0 0 0;
+    display: inline-block;
+}
+/*左上*/
+.mainTopLeft{
+    width:72%;
+    height:auto;
+}
+.m_T_L_text{
+    width:100%;
+    height:300px;
+    column-count: 3;
+
+}
+.what,.when,.how{
+    height: 300px;
+    overflow-y: hidden;
+}
+.what h3,.when h3,.how h3{
+    width: 60px;
+    text-align: center;
+}
+.what h3{
+    color: #009a00;
+    border-bottom: 1px solid #009a00;
+}
+.when h3{
+    color: #ffae3e;
+    border-bottom: 1px solid #ffae3e;
+}
+.how h3{
+    color: #ff460c;
+    border-bottom: 1px solid #ff460c;
+}
+.how ul span{
+    color: #ff881d;
+}
+.m_T_L_img img{
+    width: 100%;
+}
+/*右上*/
+.mainTopRight{
+    width:23%;
+    height:auto;
+    margin-left: 15px;
+    vertical-align: top;
+    float: right;
+    border-top: 2px solid #d80000;
+    padding-top: 10px;
+}
+.seven p{
+    margin:0;
+}
+.seven{
+    font-size: 100px;
+    color: rgba(24, 154, 19, 0.97);
+}
+.about,.technologe{
+    height: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-variant: small-caps;    /*关键样式*/
+    text-transform: capitalize;  /*关键样式*/
+    text-decoration: underline;
+    margin:0;
+}
+.mainBottomLeft,.mainBottomRight{
+    width:49%;
+    height:600px;
+    padding-bottom: 15px;
+    overflow-y: scroll;
+}
+/*左下*/
+
+.mainBottomRight{
+    float: right;
+}
+.textPic p,.textPic img{
+    display: inline-block;
+}
+
+.textPic p:first-letter{
+    font-size: 400%;
+    float: left;
+    color: #fcff4e;
+}
+.t_title{
+    border-bottom: 2px solid rgba(87, 27, 23, 0.76);
+}
+.t_title h1{
+    text-transform: uppercase;
+    word-spacing: 20px;
+}
+.t_title h1 i{
+    font-size: 200%;
+    color: #fcff4e;
+}
+.textPic img{
+    float: right;
+    margin: 15px 0 15px 15px;
+}
+/*右下*/
+.m_B_R_top {
+    width: 100%;
+    height: auto;
+}
+.m_B_R_top img{
+    width: 100%;
+    margin:auto;
+}
+.m_B_R_top p{
+    width: 100%;
+    height:60px;
+    line-height: 60px;
+    margin: 0;
+    position: relative;
+    top:-62px;
+    background: rgba(66, 70, 56, 0.55);
+}
+.m_B_R_top span{
+    display: inline-block;
+    padding-left: 20px;
+    height:45px;
+    line-height: 45px;
+    margin-left: 40px;
+    vertical-align: middle;
+    border-left: 2px solid #11b458;
+    color: #fff;
+    font-size: 30px;
+}
+.m_B_R_bottom{
+    position: relative;
+    top:-62px;
+    background-color: #fbdbff;
+}
+.m_B_R_bottom li{
+    height:30px;
+    line-height:30px;
+    list-style: square;
+}
+.lastLeft,.lastRight{
+    display: inline-block;
+}
+.lastLeft{
+    width:60%;
+    background-color: #ff4232;
+    color: #fff;
+    padding: 30px 0 30px 0;
+}
+.lastLeft div{
+    display: inline-block;
+}
+.zero{
+    width:33%;
+    height:100px;
+    line-height: 100px;
+    vertical-align: middle;
+    font-size: 100px;
+    text-align: center;
+    border-right: 2px solid #fff;
+}
+
+.lastText{
+    width: 65%;
+    float: right;
+}
+
+.lastRight{
+    width: 37%;
+    float: right;
+}
+/*底部*/
+.footer{
+    width: 100%;
+    height:60px;
+    border-top: 2px solid #7a716c;
+    margin:20px 0 0 0;
+}
